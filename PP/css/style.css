@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "School";
+    src: url(../fonts/n1.ttf);
+}
+@font-face {
+    font-family: "Zag";
+    src: url(../fonts/RifficFree-Bold.ttf);
+}
+@font-face {
+    font-family: "Info";
+    src: url(../fonts/SuperWebcomicBros_Rusbyyakustick_-Regular_0.ttf);
+}
+* {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(139, 138, 138);
+    padding: 15px;
+    font-family: "School";
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+.links {
+    margin-top: 30px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 28px;
+}
+.links a:hover {
+    border-bottom: 2px solid;
+    border-color: yellow;
+}
+.info {
+    margin-right: 5px;
+    font-family: "School";
+    font-weight: bold;
+}
+.info h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.info p {
+    font-size: 20px;
+}
+.zag {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Zag";
+    font-size: 28px;
+}
+.zag2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Zag";
+    font-size: 22px;
+}
+.sec-flex {
+    display: flex;
+}
+.people {
+    display: flex;
+}
+.pers p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Zag";
+}
+.s1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.s2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pers {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.pers img {
+    width: 180px;
+    height: 220px;
+}
+.contacts {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "School";
+    font-weight: bold;
+}
+.history {
+    text-align: center;
+    font-size: 18px;
+    font-family: "School";
+    font-weight: bold;
+    width: 700px;
+    margin-right: 20px;
+}
+.history p {
+    margin-bottom: 5px;
+}
+.fotos1 {
+    display: flex;
+    justify-content: center;
+}
+.fotos1 img {
+    width: 350px;
+    height: 350px;
+    margin-right: 5px;
+}
+.fotos2 {
+    display: flex;
+    justify-content: center;
+}
+.fotos2 img {
+    width: 750px;
+    height: 550px;
+}
+.fotos3 {
+    display: flex;
+    justify-content: center;
+}
+.s_faq {
+    display: flex;
+    justify-content: center;
+}
+.faq {
+    width: 1000px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: "School";
+    font-weight: bold;
+}
+.cont-flex {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.logo_reg img {
+    width: 150px;
+    height: 150px;
+}
+.school {
+    margin-top: 30px;
+}
+.info-flex {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.info_s3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.info_s3 p {
+    font-size: 18px;
+    font-family: "School";
+    font-weight: bold;
+    margin-top: 5px;
+}
+.info_s3 h3 {
+    font-size: 24px;
+    font-family: "Zag";
+    margin-bottom: 10px;
+}
+.header_lk {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;  
+    font-family: "School";
+    margin-top: 20px;
+}
+.lk {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-right: 10px;
+}
+.link a {
+    margin-top: 40px;
+}
+.per {
+    margin-top: 30px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+.form input {
+    background-color: #FDCCCC;
+    border: none;
+    padding: 20px;
+    padding-right: 400px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+}
+#date {
+    padding-right: 500px;
+}
+.form button{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.form a {
+    text-align: center;
+}
+.btn-1{
+    background-color: #FDCCCC;
+    border: none;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+.lk_flex {
+    display: flex;
+    justify-content: center;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    background-color: #a09c9a;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding: 35px;
+}
+.app p {
+    background-color: #FDCCCC;
+    border-radius: 30px;
+    padding: 10px;
+}
+.app a {
+    background-color: #f38080;
+    border-radius: 30px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

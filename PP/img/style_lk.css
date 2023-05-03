@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "shrift";
+    src: url(../fonts/ofont.ru_Skellyman.ttf);
+}
+body {
+    background-color: rgb(242, 223, 223, 0.6);
+    font-family: "shrift";
+}
+.header_lk {
+    display: flex;
+    justify-content: center;
+}
+.links {
+    display: flex;
+}
+.prof_pic img{
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.login {
+    margin-right: 30px;
+}
+.per {
+    margin-top: 16px;
+}
+.header_lk h3{
+    margin-left: 300px;
+}
+.zag_s2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 32px;
+}
